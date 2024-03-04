@@ -57,9 +57,10 @@ console.log(x - 4);
 
 let name1 = "john";
 let name2 = "John";
-console.log(name1 === name2); //il risultato sarà false
+console.log(name1 === name2); //il risultato sarà false perchè le iniziali sono diverse
 //EXTRA
 
 name1.toLowerCase() === name2.toLowerCase()
   ? console.log(true)
   : console.log(false);
+// la console stamperà true perchè entrambe son state trasformate in lowercase e son quindi uguali
